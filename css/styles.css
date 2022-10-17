@@ -1,0 +1,100 @@
+/* background color #ffffff */
+/* hero background color #2F303A */
+/* footer background color #2F303A */
+/* team background color #F5F4FA */
+/* accent color #2196F3 */
+/* title black color #212121 */
+/* text color #757575 */
+/* text white color #FFFFFF  */
+/* fonts Raleway – 700, Roboto – 400, 500, 700, 900. */
+:root{
+    --accent-color: #2196F3;
+    --title-black-color: #212121;
+    --text-color: #757575;
+    --text-white-color:#FFFFFF;
+}
+
+
+body{
+    background-color: #ffffff;
+    color: var(--text-color);
+}
+.link{
+    text-decoration: none;
+    
+}
+.list{
+    list-style: none;
+}
+
+
+/* logo header */
+.logo{
+    color: var(--accent-color);
+}
+.logo-header{
+    color:#000000 ;
+}
+/* navigetion */
+.nav-link{
+    color:var(--title-black-color) ;
+}
+.nav-link:hover, .nav-link:focus{
+    color:var(--accent-color) ;
+}
+.current{
+    color: var(--accent-color);
+}
+/* contacts */
+.contacts-link{
+    color:inherit;
+}
+.contacts-link:hover, .contacts-link:focus{
+    color: var(--accent-color);
+}
+/* hero */
+.section-hero{
+    background-color:#2F303A  ;
+}
+.hero-title{
+    color:var(--text-white-color);
+}
+.hero-btn{
+    background-color:var(--accent-color) ;
+    color: var(--text-white-color);
+    border: 0;
+}
+.hero-btn:hover, .hero-btn:focus{
+    background-color: #188CE8;
+}
+/*  */
+.title{
+    color: var(--title-black-color);
+}
+.section-team{
+    background-color:#F5F4FA ;
+}
+/* footer */
+.footer{
+    background-color:#2F303A ;
+}
+.logo-footer{
+    color:var(--text-white-color);
+}
+.footer-link{
+    color: var(--text-white-color);
+}
+/* portfolio */
+.btn{
+    background-color: #F5F4FA;
+    color: var(--title-black-color);
+    border: 0;
+}
+.btn:hover, .btn:focus{
+    background-color: var(--accent-color);
+    color: var(--text-white-color);
+}
+
+.list-item{
+    color:var(--text-color); 
+}
